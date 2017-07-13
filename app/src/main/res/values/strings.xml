@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">NairaDollar currency converter</string>
+    <string name="monyBanner">This is a banner showing money</string>
 </resources>

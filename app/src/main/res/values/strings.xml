@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">NairaDollar currency converter</string>
     <string name="monyBanner">This is a banner showing money</string>
+    <string name="convertBut">Convert</string>
+    <string name="enterMoneyField">Enter amount</string>
+    <string name="advisoryText">Enter the Naira to be converted</string>
 </resources>

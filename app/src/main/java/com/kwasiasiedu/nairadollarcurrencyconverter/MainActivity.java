@@ -2,20 +2,23 @@ package com.kwasiasiedu.nairadollarcurrencyconverter;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
-    public void convertCash(View view) {
+    public void convert(View view) {
 
-        EditText myCashField = (EditText) findViewById(R.id.enterMoney);
+        EditText nairaField = (EditText) findViewById(R.id.nairaField);
+
+        Log.i("nairaField", nairaField.getText().toString());
 
         //myCashField.getText().toString();
 
         //int number = Integer.parseInt(myCashField);
 
-        }
+    }
 
 
     @Override

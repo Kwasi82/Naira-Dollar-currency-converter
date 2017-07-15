@@ -2,9 +2,9 @@ package com.kwasiasiedu.nairadollarcurrencyconverter;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,14 +19,8 @@ public class MainActivity extends AppCompatActivity {
         //Convert naira to dollar using the conversion rate
         Double dollarAmount = nairaAmount * 0.0032;
 
-        //display to the log the conversion
-        Log.i("dollarAmount", dollarAmount.toString());
-
-
-
-        //myCashField.getText().toString();
-
-        //int number = Integer.parseInt(myCashField);
+        //Display converted amount in Naira to Dollar via Toast on device
+        Toast.makeText(getApplicationContext(), "$" + dollarAmount.toString(), Toast.LENGTH_LONG).show();
 
     }
 
